@@ -1,0 +1,8 @@
+encoding: utf-8
+baseurl: /
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://yuntui.org
+author: Tim Lang
+pygments: true
+paginate: 24

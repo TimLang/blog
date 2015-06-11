@@ -1,8 +1,8 @@
 encoding: utf-8
 baseurl: /
-markdown: rdiscount
+markdown: redcarpet
 permalink: /:year/:month/:title/
 url: http://yuntui.org
 author: Tim Lang
-pygments: true
+highlighter: pygments
 paginate: 24

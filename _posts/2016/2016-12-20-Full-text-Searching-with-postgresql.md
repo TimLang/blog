@@ -20,13 +20,13 @@ tags:
 
 ###Postgresql中文分词的安装
 
-#### 下载
-
 ##### 首先要安装SCWS:
+
 
 wget -q -O - http://www.xunsearch.com/scws/down/scws-1.2.2.tar.bz2 | tar xf -
 
 下载完后进目录进行安装，上面的脚本已经帮你完成解压操作了。
+
 
 ```shell
 
@@ -37,6 +37,7 @@ wget -q -O - http://www.xunsearch.com/scws/down/scws-1.2.2.tar.bz2 | tar xf -
 ```
 
 ##### 安装zhparser：
+
 zhparser是一个postgresql的插件，安装也很简单：
 
 ```shell
@@ -47,6 +48,7 @@ zhparser是一个postgresql的插件，安装也很简单：
 ```
 
 ##### 配置你的postgresql数据库：
+
 
 ```shell
 

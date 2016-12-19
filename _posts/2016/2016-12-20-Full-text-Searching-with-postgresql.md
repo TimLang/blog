@@ -16,7 +16,7 @@ tags:
 
 
 ###为什么用Postgresql提供全文检索服务
-如果想给自己的网站提供搜索服务的话有很多选择，比如：Solr, ElasticSearch等。但是当我在本地装好elasticsearch准备进行调试的时候发现实在太重量级了，关键问题是elasticsearch的启动耗费了2G多的内存，查了下发现elasticsearch也是基于lucence的，难怪这么耗内存，java的application都这样。于是我就寻找轻量级的解决方案，当然是基于内存考虑的，于是发现了postgresql的全文检索，最关键的是已经有国人做好了中文分词了。
+如果想给自己的网站提供搜索服务的话有很多选择，比如：Solr, ElasticSearch等。但是当我在本地装好elasticsearch准备进行调试的时候发现实在太重量级了，关键问题是elasticsearch的启动耗费了2G多的内存，查了下发现elasticsearch也是基于lucence的，难怪这么耗内存，java的application都这样。于是我就寻找轻量级的解决方案，当然是基于内存考虑的，于是发现了postgresql的全文检索，最关键的是已经有国人做好了中文分词了，这对于小站长来说简直就是大礼包啊，如果你的网站跑在一个1核1G内存的vps上的话，根本不可能花费额外的成本去安装全文检索的服务，因为根本用不起啊！
 
 ###Postgresql中文分词的安装
 
